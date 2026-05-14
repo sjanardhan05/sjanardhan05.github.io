@@ -4,40 +4,476 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>S.Janardhan's_Blog</title>
+    <title>Janardhan's Portfolio</title>
     <link rel="stylesheet" href="src/input.css" />
     <link rel="stylesheet" href="src/output.css" />
+    <script src="script.js" defer></script>
   </head>
-  <body>
-    <center>
-      <img src="" alt="" />
-
-      <h1 class="text-5xl text-amber-500">S.Janardhan</h1>
-    </center>
-
-    <left>
-      <h2 class="text-amber-500">I completed 10th standard at</h2>
-      <h3>
-        <b><i>Anekal Public School, Anekal-562106</i></b>
-      </h3>
-      <h4>then</h4>
-    </left>
-
-    <left>
-      <h2>I completed 2nd puc at</h2>
-      <h3>
-        <b><i>Vishwa Chethana PU & degree college, Anekal-562106</i></b>
-      </h3>
-      <h4>&</h4>
-    </left>
-
-    <h2>Now, I am studying Engineering at</h2>
-    <h3>
-      <b><i>SEA College Of Engineering & Technology(seacet)</i></b>
-    </h3>
-
-    <a href="mail:janardhans052003@gmail.com"
-      ><i>janardhans052003@gmail.com</i></a
+  <body class="">
+    <header>
+      <nav
+        class="bg-[#489236] flex items-center justify-between px-6 h-16 sm:h-24 lg:gap-8 border-b-4 border-gray-300"
+      >
+        <a href="#" class="font-bold px-2 py-1 whitespace-nowrap"
+          ><h3>S Janardhan</h3></a
+        >
+        <div
+          class="dropdown-menu absolute -top-full left-0 max-lg:bg-[#489236] w-full flex flex-col gap-6 items-center py-2 text-lg font-medium lg:static lg:flex-row lg:justify-between"
+        >
+          <ul class="flex flex-col items-center gap-6 lg:flex-row lg:gap-8">
+            <li class="hover:text-green-200"><h4>About</h4></li>
+            <li class="hover:text-green-200"><h4>Projects</h4></li>
+            <li class="hover:text-green-200"><h4>Skills</h4></li>
+            <li class="hover:text-green-200"><h4>Education</h4></li>
+            <li class="hover:text-green-200"><h4>Interests</h4></li>
+            <li class="hover:text-green-200"><h4>Get in touch</h4></li>
+          </ul>
+        </div>
+        <div class="toggle-button lg:hidden">
+          <img
+            class="w-[26.7px] sm:w-[37.92px]"
+            src="assets/menu-svgrepo-com.svg"
+            alt=""
+          />
+        </div>
+      </nav>
+    </header>
+    <section
+      class="about-section min-h-[90vh] mx-6.5 px-5 bg-[#489236] lg:flex justify-center items-center lg:flex-row"
     >
+      <div class="lg:w-4xl lg:pr-5 xl:pr-3">
+        <img
+          class="w-100 mx-auto mb-10 sm:mb-0 rounded-[100px]"
+          src="assets/profile_pic.jpg"
+          alt="profile-photo"
+        />
+      </div>
+      <div class="">
+        <h1>S Janardhan</h1>
+        <h4>
+          I am a Enthusiastic Front-End Developer with a strong foundation in
+          building responsive and user-friendly web applications. Proficient in
+          HTML5, CSS3, JavaScript, and React, with hands-on experience in
+          creating interactive UI components.
+        </h4>
+        <div class="flex items-center justify-between mt-5">
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <img class="w-6" src="assets/linkedin-logo.svg" alt="linkedin" />
+            <img class="w-6" src="assets/github-logo.svg" alt="github" />
+            <img class="w-6" src="assets/whatsapp-logo.svg" alt="whatsapp" />
+            <img class="w-6" src="assets/instagram-logo.svg" alt="instagram" />
+          </div>
+
+          <div
+            class="flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-6"
+          >
+            <button
+              class="text-[11px] font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+            >
+              <h6>VIEW PROJECTS</h6>
+            </button>
+
+            <button
+              class="w-[134px] sm:w-[165px] font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+            >
+              <h6>GET IN TOUCH</h6>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects-section mx-6.5 mt-2">
+      <h2 class="flex justify-center text-white">projects</h2>
+      <p class="flex justify-center text-white">Some things I've worked on</p>
+      <div class="grid sm:grid-cols-2 bg-[#68e848b8] p-5">
+        <div
+          class="h-[115px] sm:h-[300px] sm:mr-4 lg:mr-6 xl:mr-7.5 bg-amber-50"
+        >
+          <img src="" alt="" />
+        </div>
+        <div class="">
+          <h3>Elm&Oak</h3>
+          <p>
+            Designed a pixel perfect web page using HTML5 and CSS3.
+            <br />Created a responsive page that fits to multiple gadgets like
+            Mobile, Tablet, Laptop and Desktop.
+          </p>
+          <div
+            class="flex items-center sm:items-start justify-between sm:flex-col mt-5 sm:mt-0"
+          >
+            <div
+              class="flex flex-col items-center justify-center gap-1.5 sm:gap-4"
+            >
+              <button
+                class="text-[11px] font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>LIVE LINK</h6>
+              </button>
+
+              <button
+                class="font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>GITHUB REPO</h6>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-t border-[#3c551f]" />
+      <div class="grid sm:grid-cols-2 bg-[#68e848b8] p-5">
+        <div
+          class="h-[115px] sm:h-[300px] sm:mr-4 lg:mr-6 xl:mr-7.5 bg-amber-50"
+        >
+          <img src="" alt="" />
+        </div>
+        <div class="">
+          <h3>List App</h3>
+          <p>
+            Developed a user-friendly list app using HTML, CSS and JavaScript.
+            <br />The multiple option given to this is add task, mark completed
+            task, and remove the same.
+          </p>
+          <div
+            class="flex items-center sm:items-start justify-between sm:flex-col mt-5 sm:mt-0"
+          >
+            <div
+              class="flex flex-col items-center justify-center gap-1.5 sm:gap-4"
+            >
+              <button
+                class="text-[11px] font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>LIVE LINK</h6>
+              </button>
+
+              <button
+                class="font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>GITHUB REPO</h6>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-t border-[#3c551f]" />
+      <div class="grid sm:grid-cols-2 bg-[#68e848b8] p-5">
+        <div
+          class="h-[115px] sm:h-[300px] sm:mr-4 lg:mr-6 xl:mr-7.5 bg-amber-50"
+        >
+          <img src="" alt="" />
+        </div>
+        <div class="">
+          <h3>Weather App</h3>
+          <p>
+            Developed a responsive Weather App that provides real-time weather
+            updates.
+            <br />Used fetch api to fetch the data from openweathermap api's
+          </p>
+          <div
+            class="flex items-center sm:items-start justify-between sm:flex-col mt-5 sm:mt-0"
+          >
+            <div
+              class="flex flex-col items-center justify-center gap-1.5 sm:gap-4"
+            >
+              <button
+                class="text-[11px] font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>LIVE LINK</h6>
+              </button>
+
+              <button
+                class="font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>GITHUB REPO</h6>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-t border-[#3c551f]" />
+      <div class="grid sm:grid-cols-2 bg-[#68e848b8] p-5">
+        <div
+          class="h-[115px] sm:h-[300px] sm:mr-4 lg:mr-6 xl:mr-7.5 bg-amber-50"
+        >
+          <img src="" alt="" />
+        </div>
+        <div class="">
+          <h3>TW C</h3>
+          <p>
+            Developed a responsive website using HTML5 and Tailwind CSS.
+            <br />This is a demo website that showcases the features of Tailwind
+            CSS.
+          </p>
+          <div
+            class="flex items-center sm:items-start justify-between sm:flex-col mt-5 sm:mt-0"
+          >
+            <div
+              class="flex flex-col items-center justify-center gap-1.5 sm:gap-4"
+            >
+              <button
+                class="text-[11px] font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>LIVE LINK</h6>
+              </button>
+
+              <button
+                class="font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>GITHUB REPO</h6>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-t border-[#3c551f]" />
+      <div class="grid sm:grid-cols-2 bg-[#68e848b8] p-5">
+        <div
+          class="h-[115px] sm:h-[300px] sm:mr-4 lg:mr-6 xl:mr-7.5 bg-amber-50"
+        >
+          <img src="" alt="" />
+        </div>
+        <div class="">
+          <h3>Quote Generator</h3>
+          <p>
+            Developed a quote generator web application.
+            <br />In this web app generates quotes randomly from json file.
+          </p>
+          <div
+            class="flex items-center sm:items-start justify-between sm:flex-col mt-5 sm:mt-0"
+          >
+            <div
+              class="flex flex-col items-center justify-center gap-1.5 sm:gap-4"
+            >
+              <button
+                class="text-[11px] font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>LIVE LINK</h6>
+              </button>
+
+              <button
+                class="font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>GITHUB REPO</h6>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-t border-[#3c551f]" />
+      <div class="grid sm:grid-cols-2 bg-[#68e848b8] p-5">
+        <div
+          class="h-[115px] sm:h-[300px] sm:mr-4 lg:mr-6 xl:mr-7.5 bg-amber-50"
+        >
+          <img src="" alt="" />
+        </div>
+        <div class="">
+          <h3>GoLeaf</h3>
+          <p>
+            Developed a GoLeaf static site using React.
+            <br />I focused on responsive design, component-based architecure,
+            and smooth user experience.
+          </p>
+          <div
+            class="flex items-center sm:items-start justify-between sm:flex-col mt-5 sm:mt-0"
+          >
+            <div
+              class="flex flex-col items-center justify-center gap-1.5 sm:gap-4"
+            >
+              <button
+                class="text-[11px] font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>LIVE LINK</h6>
+              </button>
+
+              <button
+                class="font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>GITHUB REPO</h6>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-t border-[#3c551f]" />
+      <div class="grid sm:grid-cols-2 bg-[#68e848b8] p-5">
+        <div
+          class="h-[115px] sm:h-[300px] sm:mr-4 lg:mr-6 xl:mr-7.5 bg-amber-50"
+        >
+          <img src="" alt="" />
+        </div>
+        <div class="">
+          <h3>Virtual Mouse Using AI</h3>
+          <p>
+            Designed and Implemented virtual mouse control system using computer
+            vision.
+            <br />Used hand gestures for controls like the move the cursor, left
+            click and right click.
+          </p>
+          <div
+            class="flex items-center sm:items-start justify-between sm:flex-col mt-5 sm:mt-0"
+          >
+            <div
+              class="flex flex-col items-center justify-center gap-1.5 sm:gap-4"
+            >
+              <button
+                class="text-[11px] font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>LIVE LINK</h6>
+              </button>
+
+              <button
+                class="font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>GITHUB REPO</h6>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-t border-[#3c551f]" />
+      <div class="grid sm:grid-cols-2 bg-[#68e848b8] p-5">
+        <div
+          class="h-[115px] sm:h-[300px] sm:mr-4 lg:mr-6 xl:mr-7.5 bg-amber-50"
+        >
+          <img src="" alt="" />
+        </div>
+        <div class="">
+          <h3>Email Spam Classification</h3>
+          <p>
+            Developed an email spam detection system using NB algorithm.
+            <br />Designed a user-friendly web interface using Flask.
+          </p>
+          <div
+            class="flex items-center sm:items-start justify-between sm:flex-col mt-5 sm:mt-0"
+          >
+            <div
+              class="flex flex-col items-center justify-center gap-1.5 sm:gap-4"
+            >
+              <button
+                class="text-[11px] font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>LIVE LINK</h6>
+              </button>
+
+              <button
+                class="font-semibold border px-6 py-2 rounded-full transition-all duration-300"
+              >
+                <h6>GITHUB REPO</h6>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills-section center mx-6.5 mt-2">
+      <h2 class="flex justify-center text-white">skills</h2>
+      <p class="flex justify-center text-white">Things I've known</p>
+      <div class="flex flex-col items-center space-y-4 bg-[#68e848b8] p-5">
+        <div>
+          <div>
+            <h3>OPERATING SYSTEMS</h3>
+            <ul class="flex gap-4 md:gap-8 items-center">
+              <li>
+                <img
+                  class="w-15"
+                  src="assets/linux-svgrepo-com.svg"
+                  alt="linux"
+                />
+              </li>
+              <li>
+                <img
+                  class="w-15"
+                  src="assets/apple-173-svgrepo-com.svg"
+                  alt="apple"
+                />
+              </li>
+              <li>
+                <img
+                  class="w-15"
+                  src="assets/windows-174-svgrepo-com.svg"
+                  alt="windows"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="pt-5">
+            <h3>Programming Languages & Tools</h3>
+            <ul class="flex flex-wrap gap-4 md:gap-8 items-center">
+              <li>
+                <img
+                  class="w-15"
+                  src="assets/html-124-svgrepo-com.svg"
+                  alt="html5"
+                />
+              </li>
+              <li>
+                <img
+                  class="w-15"
+                  src="assets/css3-02-svgrepo-com.svg"
+                  alt="css3"
+                />
+              </li>
+              <li>
+                <img
+                  class="w-15"
+                  src="assets/javascript-155-svgrepo-com.svg"
+                  alt="js"
+                />
+              </li>
+              <li>
+                <img
+                  class="w-15"
+                  src="assets/python-127-svgrepo-com.svg"
+                  alt="python"
+                />
+              </li>
+              <li>
+                <img
+                  class="w-15"
+                  src="assets/git-merge-svgrepo-com.svg"
+                  alt="git"
+                />
+              </li>
+              <li>
+                <img
+                  class="w-15"
+                  src="assets/node-svgrepo-com.svg"
+                  alt="node"
+                />
+              </li>
+              <li>
+                <img class="w-15" src="assets/npm-svgrepo-com.svg" alt="npm" />
+              </li>
+            </ul>
+          </div>
+          <div class="pt-5">
+            <h3>FRAMEWORKS & LIBRARIES</h3>
+            <ul class="flex gap-4 md:gap-8 items-center">
+              <li>
+                <img
+                  class="w-15"
+                  src="assets/react-svgrepo-com.svg"
+                  alt="react"
+                />
+              </li>
+              <li>
+                <img
+                  class="w-15"
+                  src="assets/tailwind-css-svgrepo-com.svg"
+                  alt="tailwind"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
+  <script>
+    // const toggleBtn = document.querySelector(".dropdown-menu");
+    // const dropdown = document.querySelector(".toggle-button");
+
+    // toggleBtn.addEventListener("click", () => {
+    //   dropdown.classList.toggle("top-16");
+    // });
+  </script>
 </html>

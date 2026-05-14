@@ -1,1 +1,37 @@
 @import "tailwindcss";
+
+h1 {
+  @apply text-3xl sm:text-[45px];
+}
+
+h2 {
+  @apply text-[28px] sm:text-[32px] lg:text-[36px];
+}
+
+h3 {
+  @apply text-[24px] sm:text-[32px] xl:text-[36px];
+}
+
+h4 {
+  @apply text-[16px] xl:text-[20px];
+}
+
+h5 {
+  @apply text-[14px] sm:text-[16px];
+}
+
+h6 {
+  @apply text-[11px] sm:text-[14px];
+}
+
+p {
+  @apply text-[16px];
+}
+
+button {
+  @apply w-[160px];
+}
+
+body {
+  background-color: #3c551f;
+}
