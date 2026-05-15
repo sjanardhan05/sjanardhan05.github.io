@@ -36,6 +36,10 @@ body {
   background-color: #3c551f;
 }
 
+.project {
+  @apply grid sm:grid-cols-2 bg-[#68e848b8] p-5 rounded-lg;
+}
+
 .interest {
   @apply flex items-center justify-center text-center bg-[#68e848b8] py-3 rounded-lg;
 }
