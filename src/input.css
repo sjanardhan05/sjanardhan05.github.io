@@ -37,5 +37,5 @@ body {
 }
 
 .interest {
-  @apply flex items-center justify-center text-center bg-[#68e848b8]  py-3 rounded-lg;
+  @apply flex items-center justify-center text-center bg-[#68e848b8] py-3 rounded-lg;
 }

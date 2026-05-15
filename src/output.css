@@ -238,9 +238,6 @@
   .h-\[115px\] {
     height: 115px;
   }
-  .min-h-\[85vh\] {
-    min-height: 85vh;
-  }
   .min-h-\[88vh\] {
     min-height: 88vh;
   }
@@ -323,6 +320,9 @@
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
+  .rounded-lg {
+    border-radius: var(--radius-lg);
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -370,6 +370,9 @@
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
