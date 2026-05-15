@@ -238,6 +238,9 @@
   .h-\[115px\] {
     height: 115px;
   }
+  .min-h-\[8vh\] {
+    min-height: 8vh;
+  }
   .min-h-\[88vh\] {
     min-height: 88vh;
   }
